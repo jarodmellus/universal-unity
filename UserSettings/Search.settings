@@ -7,6 +7,15 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"last_search.DE94955A" = ""
+	"OpenInspectorPreview.DE94955A" = "0"
+	"currentGroup.DE94955A" = "all"
+	"last_search.CE94955A" = ""
+	"OpenInspectorPreview.CE94955A" = "1"
+	"currentGroup.CE94955A" = "all"
+	"last_search.DA94955A" = ""
+	"OpenInspectorPreview.DA94955A" = "0"
+	"currentGroup.DA94955A" = "all"
 }
 providers = {
 	adb = {
@@ -47,6 +56,41 @@ providers = {
 	scene = {
 		active = true
 		priority = 50
+		defaultAction = null
+	}
+	at = {
+		active = true
+		priority = 100
+		defaultAction = null
+	}
+	st = {
+		active = true
+		priority = 100
+		defaultAction = null
+	}
+	menu = {
+		active = true
+		priority = 80
+		defaultAction = null
+	}
+	settings = {
+		active = true
+		priority = 100
+		defaultAction = null
+	}
+	help = {
+		active = true
+		priority = -1
+		defaultAction = null
+	}
+	calculator = {
+		active = true
+		priority = 10
+		defaultAction = null
+	}
+	static_methods = {
+		active = true
+		priority = 85
 		defaultAction = null
 	}
 }
